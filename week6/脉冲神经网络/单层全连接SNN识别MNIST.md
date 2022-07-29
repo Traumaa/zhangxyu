@@ -1,4 +1,4 @@
-# WEEK6：单层全连接识别MNIST
+# WEEK6：单层全连接SNN识别MNIST
 
 ## 6.1 搭建SNN网络
 
@@ -102,7 +102,7 @@ for epoch in range(start_epoch, args.epochs):
 
 ![](image/2022-07-29-15-59-50.png)
 
-第一反应是包安装错误，查看了包的版本后，重新安装了了一遍，仍旧是报错
+第一反应是包安装错误，查看了包的版本后，重新安装了一遍，仍旧是报错
 
 ![](image/2022-07-29-16-03-38.png)
 
@@ -126,4 +126,4 @@ for epoch in range(start_epoch, args.epochs):
 
 之前使用Jupyter Notebook，逐行运行代码时，按照教程，可以实现可视化，但是放在命令行运行，发现自己对`matplotlib`包的使用并不熟悉。
 
-但是本周作业截至时间将至，所以打算将使用`matplotlib`包可视化放在周末进行学习。
+但是本周作业截至时间将至QAQ，所以打算将使用`matplotlib`包可视化放在周末进行学习。
