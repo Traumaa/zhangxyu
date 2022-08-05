@@ -94,7 +94,7 @@ test_set = torchvision.datasets.FashionMNIST(
         transform=torchvision.transforms.ToTensor(),
         download=True)
 ```
-设置参数为`-T 4 -device cuda:0 -b 128 -epochs 64 -data-dir /datasets/FashionMNIST/ -amp -cupy -opt sgd -lr 0.1 -j 8`进行训练，如下所示：
+设置参数为`-T 4 -device cuda:0 -b 128 -epochs 16 -data-dir /datasets/FashionMNIST/ -amp -cupy -opt sgd -lr 0.1 -j 8`进行训练，如下所示：
 
 ![](image/2022-08-04-22-46-33.png)
 
