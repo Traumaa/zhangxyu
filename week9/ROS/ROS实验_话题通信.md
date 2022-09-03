@@ -135,7 +135,7 @@ int main(int argc, char  *argv[])
 ```
 ### 9.3.4 配置 CMakeLists.txt
 
-![](image/2022-09-03-17-38-14.png)
+![](image/2022-09-03-17-47-47.png)
 
 ### 9.3.5 编译并执行
 
